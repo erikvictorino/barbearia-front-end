@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Barbearia BarberKing</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="banner">
+        <h1>BARBERKING</h1>
+        <p>cortes que fazem história</p>
+        <section class="banner-content">
+            <nav>
+                <a href="#cortes">cortes</a>
+                <a href="#extras">extras</a>
+                <a href="#pedido">agendamento</a>
+                <a href="#contato">contato</a>
+            </nav>
+        </section>
+    </header>
+
+    <main>
+        <section id="cortes" class="categoria">
+            <h2>✂ Cortes</h2>
+
+            <div class="produto">
+                <div class="produto-icon">💈</div>
+                <h3>Corte Clássico</h3>
+                <p>Tesoura ou máquina, acabamento perfeito</p>
+                <span class="preco">R$ 35,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+
+            <div class="produto">
+                <div class="produto-icon">🪒</div>
+                <h3>Corte + Barba</h3>
+                <p>Combo completo com navalha e toalha quente</p>
+                <span class="preco">R$ 55,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+
+            <div class="produto">
+                <div class="produto-icon">👑</div>
+                <h3>Corte Premium</h3>
+                <p>Degradê artístico com acabamento luxo</p>
+                <span class="preco">R$ 65,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+        </section>
+
+        <section id="extras" class="categoria">
+            <h2>⚡ Extras</h2>
+
+            <div class="produto">
+                <div class="produto-icon">🧔</div>
+                <h3>Barba Completa</h3>
+                <span class="preco">R$ 30,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+
+            <div class="produto">
+                <div class="produto-icon">💆</div>
+                <h3>Hidratação Capilar</h3>
+                <span class="preco">R$ 25,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+
+            <div class="produto">
+                <div class="produto-icon">🔥</div>
+                <h3>Pigmentação de Barba</h3>
+                <span class="preco">R$ 40,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+        </section>
+
+        <section id="pedido">
+            <h2>📋 Seu Agendamento</h2>
+            <ul id="lista-pedido"></ul>
+            <p id="total">Total: R$ 0,00</p>
+            <button id="finalizar-pedido">Confirmar Agendamento</button>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Fale conosco ou agende pelo WhatsApp</p>
+            <div class="redes-sociais">
+                <a href="https://wa.me/SEU-NUMERO-AQUI">📱 WhatsApp</a>
+                <a href="https://instagram.com/erikvictorino">📸 Instagram</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Todos os direitos reservados</p>
+        <p>Desenvolvido por: <a href="https://github.com/erikvictorino">Erik Victorino</a></p>
+    </footer>
+
+    <script src='script.js'></script>
+</body>
+</html>
